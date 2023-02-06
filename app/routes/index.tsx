@@ -9,14 +9,14 @@ export default function Index() {
         </div>
       </section>
       <section className="w-full mt-10 lg:h-96 flex items-center bg-blue-100">
-        <div className="container mx-auto flex items-center">
+        <div className="container mx-auto flex items-center p-6">
           <h1 className="w-3/6 text-6xl text-blue-800">
             Descubra novos mundos com nossos <strong>resumos de livros</strong>
           </h1>
         </div>
       </section>
       <section className="w-full my-20">
-        <div className="container mx-auto ">
+        <div className="container mx-auto px-6">
           <h3 className="text-3xl text-blue-800">Adicionados recentemente</h3>
           <Link to="/livros/blah" className="flex flex-col mt-10 w-28">
             <img className="w-28" src="/capa.jpg" />
