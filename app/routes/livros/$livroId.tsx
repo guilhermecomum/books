@@ -63,6 +63,9 @@ export default function BooksDetailsPage() {
         >
           Compar agora na Amazon
         </a>
+        <div className="bg-gray-50 border-dashed border-2 border-gray-400 w-full h-28 pt-2 flex justify-center items-center mt-20">
+          publicidade
+        </div>
       </div>
     </div>
   );

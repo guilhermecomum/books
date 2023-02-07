@@ -32,10 +32,20 @@ export default function App() {
         <Links />
       </head>
       <body className="flex flex-col min-h-screen">
+        <section className="container mx-auto  p-6 lg:p-4">
+          <div className="bg-gray-50 border-dashed border-2 border-gray-400 w-full h-28 pt-2 flex justify-center items-center">
+            publicidade
+          </div>
+        </section>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <section className="container mx-auto  p-6 lg:p-4">
+          <div className="bg-gray-50 border-dashed border-2 border-gray-400 w-full h-28 pt-2 flex justify-center items-center">
+            publicidade
+          </div>
+        </section>
       </body>
     </html>
   );
