@@ -33,12 +33,10 @@ export default function App() {
         <Links />
       </head>
       <body className="flex flex-col min-h-screen">
-        <Topbar />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
-        <div className="mt-auto bg-blue-100 flex flex-col lg:flex-row space-y-8 text-center lg:space-y-0 lg:text-left justify-between py-8 items-center px-8"></div>
       </body>
     </html>
   );

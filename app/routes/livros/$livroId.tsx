@@ -2,13 +2,13 @@ export default function BooksDetailsPage() {
   return (
     <div className="container flex flex-col lg:flex-row mx-auto p-6 lg:p-4">
       <div className="flex flex-col flex-1">
-        <h2 className="text-3xl text-blue-900">
+        <h2 className="text-3xl text-rgay-900">
           É assim que começa (Vol. 2 É assim que acaba)
         </h2>
         <p className="text-xl mt-2 block text-gray-500">Colleen Hoover</p>
         <hr className="my-4" />
 
-        <h3 className="text-2xl text-blue-900">Resumo</h3>
+        <h3 className="text-2xl text-gray-900">Resumo</h3>
         <p className="pt-4">
           Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna
           nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Nullam
@@ -36,8 +36,8 @@ export default function BooksDetailsPage() {
         </p>
       </div>
       <div className="flex flex-col md:w-full lg:w-96 lg:ml-28 mt-6 lg:mt-0">
-        <img className="md:w-full w-96" src="/capa.jpg" />
-        <a className="bg-yellow-500 mt-10 p-3 rounded w-auto inline-block text-center">
+        <img className="md:w-full w-96 grayscale" src="/capa.jpg" />
+        <a className="bg-gray-900 text-white mt-10 p-3 rounded w-auto inline-block text-center">
           Compar agora na Amazon
         </a>
       </div>
